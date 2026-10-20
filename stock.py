@@ -12,7 +12,7 @@ st.write("Random Forest Model ka use karke stock ki Close price predict karein!"
 # Load Trained Model
 @st.cache_resource
 def load_model():
-    return joblib.load('global_stock_rf_model.pkl')
+    return joblib.load('stochs.pkl')
 
 model = load_model()
 
